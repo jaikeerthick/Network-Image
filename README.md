@@ -1,5 +1,7 @@
-# Network-Image  
+# Network-Image 🖼️ 
 Latest version: [![](https://jitpack.io/v/jaikeerthick/network-image.svg)](https://jitpack.io/#jaikeerthick/network-image)
+
+A Jetpack Compose library to fetch images from remote-sources and display it. It supports event handling like ```onLoading```, ```onError``` and ```onSuccess``` and also the main feature is one can easily provide ui for these events as a param directly.
 
 ## Gradle Setup
 
