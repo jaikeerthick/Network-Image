@@ -8,7 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 
 @Composable
-fun NetworkImageEmpty(){
+internal fun NetworkImageEmpty(){
     Spacer(
         modifier = Modifier
             .fillMaxSize()

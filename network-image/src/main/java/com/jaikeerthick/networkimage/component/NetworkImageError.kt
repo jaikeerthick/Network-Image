@@ -10,7 +10,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
 @Composable
-fun NetworkImageError() {
+internal fun NetworkImageError() {
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -19,6 +19,6 @@ fun NetworkImageError() {
             ),
         contentAlignment = Alignment.Center
     ) {
-        Text(text = "🍕", style = MaterialTheme.typography.subtitle1)
+        Text(text = "Error !", style = MaterialTheme.typography.subtitle1)
     }
 }

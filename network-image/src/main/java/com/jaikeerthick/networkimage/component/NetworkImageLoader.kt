@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun NetworkImageLoader() {
+internal fun NetworkImageLoader() {
     Box(
         modifier = Modifier
             .fillMaxSize()
