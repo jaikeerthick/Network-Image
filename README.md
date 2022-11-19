@@ -15,7 +15,7 @@ allprojects {
 }
 
 dependencies {
-    implementation 'com.github.jaikeerthick:Network-Image:v<latest-version>' // sample: v1.0.1
+    implementation 'com.github.jaikeerthick:network-image:v<latest-version>' // sample: v1.0.1
 }
 ```
 ## Why Network-Image ?
